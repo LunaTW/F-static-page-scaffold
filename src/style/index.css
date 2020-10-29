@@ -7,7 +7,9 @@ html {
     BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
 }
 
-h1 {
+h1,
+h2,
+h4 {
   margin: 0;
   padding: 0;
 }
@@ -30,12 +32,11 @@ ul {
 header {
   background: #3b5998;
   color: white;
-  height: 70px;
-  /*line-height: 70px;*/
+  height: 80px;
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 0 250px;
+  padding: 0 300px;
 }
 
 .logo {
@@ -51,10 +52,41 @@ header {
   background: #42b72a;
   padding: 4px 8px;
   color: white;
-  font-size: 10px;
+  font-size: 16px;
 }
 
 main {
   border: 1px solid red;
-  min-height: 700px;
+  margin: 20px 300px;
+}
+
+.slogan {
+  border: 1px solid red;
+  margin-top: 10px;
+}
+
+.product {
+  border: 1px solid red;
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-basic {
+  border: 1px solid red;
+  height: 550px;
+  width: 520px;
+  background: white;
+}
+
+.product-merchant {
+}
+
+.product-public {
+}
+
+.prepare {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
