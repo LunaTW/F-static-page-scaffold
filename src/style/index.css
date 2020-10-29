@@ -2,6 +2,7 @@ body,
 html {
   margin: 0;
   padding: 0;
+  background: #e9ebee;
 }
 
 body {
@@ -17,4 +18,15 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+header {
+  background: #3b5998;
+  color: white;
+  height: 70px;
+}
+
+main {
+  border: 1px solid red;
+  min-height: 700px;
 }
